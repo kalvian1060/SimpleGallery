@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity implements LoaderPrensenter.
                 detail.putExtra("PATH", Path);
                 startActivity(detail);
 
-                Log.d("SENDITEM", "onItemClick: " + item.getAbsolutePath());
             }
         });
 
