@@ -50,9 +50,6 @@ public class AdapterGallery extends RecyclerView.Adapter<AdapterGallery.ViewHold
                 .centerCrop()
                 .into(holder.Iv);
 
-
-        Log.d(TAG, "onBindViewHolder: " + item.getAbsoluteFile());
-
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
